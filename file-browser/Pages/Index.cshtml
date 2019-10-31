@@ -1,8 +1,8 @@
 ﻿@page
 @model IndexModel
-@{
+<!-- @{
     ViewData["Title"] = "Home page";
-}
+} -->
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
@@ -33,4 +33,14 @@
     
     </nav>
 
+    <form method="post">
+        <div>Name: <input asp-for="Message" /></div>
+        <div><input type="submit" /></div>
+    </form>
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <p>
+            Hello @Model.Message!
+        </p>
+    }
 </div>
