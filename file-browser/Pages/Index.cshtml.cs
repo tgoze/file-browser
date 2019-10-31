@@ -9,9 +9,7 @@ namespace file_browser.Pages
 {
     public class IndexModel : PageModel
     {
-        public void OnGet()
-        {
-
-        }
+        [BindProperty]
+        public string Message { get; set; }        
     }
 }
