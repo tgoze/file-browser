@@ -3,7 +3,7 @@ using System.IO;
 
 namespace file_browser.model {
 
-    class File {
+    public class File {
         String name;
         String path;
 

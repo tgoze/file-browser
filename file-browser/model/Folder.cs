@@ -3,7 +3,7 @@ using System.IO;
 
 namespace file_browser.model {
 
-    class Folder {
+    public class Folder {
 
     String path;
     String name;
@@ -53,6 +53,10 @@ namespace file_browser.model {
     }
     public String getPath() {
         return path;
+    }
+
+    public string toString() {
+        return name;
     }
 
 
