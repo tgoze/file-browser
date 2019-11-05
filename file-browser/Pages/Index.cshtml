@@ -15,7 +15,7 @@
         @if (Model.GetType().GetProperty("files") != null) {                
             for (var i = 0; i < Model.files.Length; i++)
             {            
-                <a><h5>Model.files[i]</h5></a>            
+                <a><h5>@Model.files[i]</h5></a>            
             }
         }
         </div>    
