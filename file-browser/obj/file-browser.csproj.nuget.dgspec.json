@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/tj/Projects/file-browser/file-browser.csproj": {}
+    "/home/brian/FileBrowserRepo/file-browser/file-browser/file-browser.csproj": {}
   },
   "projects": {
-    "/home/tj/Projects/file-browser/file-browser.csproj": {
+    "/home/brian/FileBrowserRepo/file-browser/file-browser/file-browser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tj/Projects/file-browser/file-browser.csproj",
+        "projectUniqueName": "/home/brian/FileBrowserRepo/file-browser/file-browser/file-browser.csproj",
         "projectName": "file-browser",
-        "projectPath": "/home/tj/Projects/file-browser/file-browser.csproj",
-        "packagesPath": "/home/tj/.nuget/packages/",
-        "outputPath": "/home/tj/Projects/file-browser/obj/",
+        "projectPath": "/home/brian/FileBrowserRepo/file-browser/file-browser/file-browser.csproj",
+        "packagesPath": "/home/brian/.nuget/packages/",
+        "outputPath": "/home/brian/FileBrowserRepo/file-browser/file-browser/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/tj/.nuget/NuGet/NuGet.Config"
+          "/home/brian/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
