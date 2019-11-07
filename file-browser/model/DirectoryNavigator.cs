@@ -26,7 +26,7 @@ namespace file_browser.model {
         }
         //Get current directory
         public static String getCurrentDirectory() {
-            return currentDirectory;
+            return Environment.CurrentDirectory;
         }
         //Change Directory
         public static void changeDirectory(String nDirectory) {
